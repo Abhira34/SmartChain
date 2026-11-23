@@ -1,13 +1,13 @@
-package com.smartChain;
+package com.smartChain.model;
 
 public class Product {
-    private long id;
+    private int id;
     private String name;
     private String category;
-    private double price;
+    private int price;
     private int quantity;
 
-    public Product(long id, String name, String category, double price, int quantity){
+    public Product(int id, String name, String category, int price, int quantity){
 
         if(id<=0){
             throw new IllegalArgumentException("Product ID must be +ve...");
@@ -32,7 +32,7 @@ public class Product {
         return category;
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
@@ -40,7 +40,7 @@ public class Product {
         return name;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 
@@ -48,7 +48,7 @@ public class Product {
         return quantity;
     }
 
-    public double getInventoryValue(){
+    public int getInventoryValue(){
         return price * quantity ;
     }
 
@@ -57,7 +57,7 @@ public class Product {
         this.name = name;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
