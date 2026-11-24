@@ -1,8 +1,8 @@
-101|Rice|Grocery|500|20
-102|Cooking Oil|Grocery|150|40
-103|Milk|Grocery|65|20
-104|Wheat|Grocery|35|50
-105|Massor Daal|Grocery|50|60
-106|Salt|Grocery|18|6
-107|Laptop|Electronics|50000|13
-108|Washing Machine|Home Appliance|15000|8
+101 | Rice | Grocery | 500 | 20
+102 | Cooking Oil | Grocery | 150 | 40
+103 | Milk | Grocery | 65 | 20
+104 | Wheat | Grocery | 35 | 50
+105 | Massor Daal | Grocery | 50 | 60
+106 | Salt | Grocery | 18 | 6
+107 | Laptop | Electronics | 50000 | 10
+108 | Washing Machine | Home Appliance | 15000 | 8
