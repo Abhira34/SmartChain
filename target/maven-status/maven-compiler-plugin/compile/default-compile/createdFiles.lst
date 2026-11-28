@@ -1,0 +1,15 @@
+com\smartChain\database\ProductQueryTest.class
+com\smartChain\database\DatabaseConnectionTest.class
+com\smartChain\service\Box.class
+com\smartChain\exception\ProductNotFoundException.class
+com\smartChain\service\ProductManager.class
+com\smartChain\storage\ProductStorage.class
+com\smartChain\exception\DuplicateProductException.class
+com\smartChain\service\ApiResponse.class
+com\smartChain\database\InsertProductTest.class
+com\smartChain\exception\InsufficientStockException.class
+com\smartChain\storage\MySQLProductStorage.class
+com\smartChain\database\DatabaseConnection.class
+com\smartChain\Main.class
+com\smartChain\storage\FileManager.class
+com\smartChain\model\Product.class

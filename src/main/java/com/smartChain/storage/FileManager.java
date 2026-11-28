@@ -4,12 +4,13 @@ import com.smartChain.model.Product;
 
 import java.io.*;
 import java.util.HashMap;
+import java.util.List;
 
-public class FileManager implements ProductStorage {
+public class FileManager implements ProductStorage{
+
     private final String fileName = "products.txt";
 
-
-    @Override
+    // Save Products
     public void saveProducts(HashMap<Integer, Product> products) {
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))){
             for(Product product : products.values()){
@@ -25,7 +26,6 @@ public class FileManager implements ProductStorage {
         }
     }
 
-    @Override
     // Load Product
     public HashMap<Integer, Product> loadProducts(){
 
@@ -79,5 +79,31 @@ public class FileManager implements ProductStorage {
             System.out.println("\nInvalid Product Data: "+e.getMessage());
         }
         return products;
+    }
+
+
+    @Override
+    public void addProduct(Product product) {
+
+    }
+
+    @Override
+    public Product getProductById(int id) {
+        return null;
+    }
+
+    @Override
+    public List<Product> getAllProduct() {
+        return List.of();
+    }
+
+    @Override
+    public void updateProduct(Product product) {
+
+    }
+
+    @Override
+    public void deleteProduct(int id) {
+
     }
 }

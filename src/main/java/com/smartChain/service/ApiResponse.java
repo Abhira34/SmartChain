@@ -1,6 +1,6 @@
 package com.smartChain.service;
 
-public class ApiResponse <T>{
+public class ApiResponse <T> {
     private boolean success;
     private String message;
     private T data;

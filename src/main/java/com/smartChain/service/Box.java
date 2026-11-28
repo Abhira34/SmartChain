@@ -2,7 +2,8 @@ package com.smartChain.service;
 
 import com.smartChain.model.Product;
 
-public class Box<T> {
+public class Box <T> {
+
     private T value;
     public void setValue(T value){
         this.value = value;
@@ -24,7 +25,6 @@ public class Box<T> {
         Product p1 = new Product(101,"Dove","Soap",35,30);
         productBox.setValue(p1);
         System.out.println(productBox.getValue().getName());
-
 
     }
 }
